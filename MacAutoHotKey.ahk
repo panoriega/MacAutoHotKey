@@ -23,3 +23,38 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 !z::Send, ^z ; Alt + z (Option + z; Undo)
 RAlt & e::Send, {vkBAsc01A} ; Right Alt + e (Right Option e, send spanish accent mark)
 RAlt & u::Send, +{vkBAsc01A} ; Right Alt + u (Right Option u, send spanish dieresis)
+
+
+; https://gist.github.com/chrisdhanaraj/f6d1ff1e27e733bdd43257506688ccfc#file-osx-ahk
+; changed Contrl by Alt key
+!Left::
+    Send {Home}
+Return
+
+!Right::
+    Send {End}
+Return
+
+!+Left::
+    Send +{Home}
+Return
+
+!+Right::
+    Send +{End}
+Return
+
+!Up::
+    Send ^{Home}
+Return
+
+!Down::
+    Send ^{End}
+Return
+
+!+Up::
+    Send ^+{Home}
+Return
+
+!+Down::
+    Send ^+{End}
+Return
