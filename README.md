@@ -1,6 +1,6 @@
 # MacAutoHotKey
 AutoHotKey script to map Mac Keyboard Keys on Windows
-
+http://autohotkey.com
 
 !+n::Send, ^+n ;Shift + Alt + n (new incognito windows)  
 !a::Send, ^a ;Alt+A (Option + a)  
