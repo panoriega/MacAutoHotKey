@@ -26,7 +26,8 @@ RAlt & u::Send, +{vkBAsc01A} ; Right Alt + u (Right Option u, send spanish diere
 
 
 ; https://gist.github.com/chrisdhanaraj/f6d1ff1e27e733bdd43257506688ccfc#file-osx-ahk
-; changed Contrl by Alt key
+; replaced Control by Alt key
+
 !Left::
     Send {Home}
 Return
