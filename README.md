@@ -35,32 +35,33 @@ RAlt & u::Send, +{vkBAsc01A} ; Right Alt + u (Right Option u, send spanish diere
 ; replaced Control by Alt key  
   
 !Left::  
-    Send {Home}  
+&nbsp;&nbsp;&nbsp;&nbsp;Send {Home}  
 Return  
 
 !Right::  
-    Send {End}  
+&nbsp;&nbsp;&nbsp;&nbsp;Send {End}  
 Return  
 
 !+Left::  
-    Send +{Home}  
+&nbsp;&nbsp;&nbsp;&nbsp;Send +{Home}  
 Return  
 
 !+Right::  
-    Send +{End}  
+&nbsp;&nbsp;&nbsp;&nbsp;Send +{End}  
 Return  
 
 !Up::  
-    Send ^{Home}  
+&nbsp;&nbsp;&nbsp;&nbsp;Send ^{Home}  
 Return  
 
 !Down::  
-    Send ^{End}  
+&nbsp;&nbsp;&nbsp;&nbsp;Send ^{End}  
 Return  
 
 !+Up::  
-    Send ^+{Home}  
+&nbsp;&nbsp;&nbsp;&nbsp;Send ^+{Home}  
 Return  
 
-!+Down:: Send ^+{End} Return  
-
+!+Down::  
+&nbsp;&nbsp;&nbsp;&nbsp;Send ^+{End}  
+Return  
